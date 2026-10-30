@@ -42,8 +42,8 @@
     "visit.lead": "The room is small and fills up quickly: we recommend booking.",
     "visit.where": "Where", "visit.when": "When", "visit.call": "Bookings",
     "visit.hours": "Monday – Saturday<br>12:00 – 15:00 · 19:30 – 24:00<br>Closed on Sunday",
-    "gallery.eyebrow": "From our table",
-    "gallery.title": "The room and the dishes,<br><em>through our guests’ eyes.</em>",
+    "gallery.eyebrow": "Gallery",
+    "gallery.title": "From our kitchen,<br><em>to your table.</em>",
     "visit.btn1": "Call to book", "visit.btn2": "Book on TheFork", "visit.maps": "Open in Google Maps →",
     "footer.demo": "Demo website"
   };
