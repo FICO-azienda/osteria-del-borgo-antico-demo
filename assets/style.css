@@ -179,7 +179,9 @@ dd a { text-decoration: none; border-bottom: 1px solid var(--line); }
 .footer-bottom { display: flex; justify-content: space-between; align-items: center; gap: 1.5rem; flex-wrap: wrap; padding-top: 1.8rem; font-size: .76rem; opacity: .8; }
 .fico { display: inline-flex; align-items: center; gap: .7rem; text-decoration: none; letter-spacing: .14em; text-transform: uppercase; font-size: .68rem; opacity: .85; transition: opacity .3s; }
 .fico:hover { opacity: 1; }
-.fico img { height: 32px; width: 32px; }
+.fico-seal { width: 32px; height: 32px; border-radius: 50%; overflow: hidden; display: flex; border: 1.5px solid rgba(255,255,255,.3); background: #fbf6e6; transition: border-color .3s; }
+.fico-seal img { width: 100%; height: 100%; object-fit: cover; }
+.fico:hover .fico-seal { border-color: rgba(255,255,255,.7); }
 .fico span { text-transform: none; font-style: italic; letter-spacing: .04em; font-size: .9rem; color: #8f8f8f; }
 
 /* reveal on scroll */
