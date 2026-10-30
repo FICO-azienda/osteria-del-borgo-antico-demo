@@ -152,7 +152,7 @@ section { padding: clamp(5rem, 12vw, 10rem) var(--gutter); }
 /* voices */
 .voices { background: var(--sea); color: var(--cream); }
 .voices .eyebrow { color: #e8b994; }
-.quotes { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(2rem, 4vw, 4rem); max-width: 1240px; margin: 0 auto; }
+.quotes { display: grid; grid-template-columns: repeat(2, 1fr); gap: clamp(2rem, 4vw, 4rem); max-width: 1240px; margin: 0 auto; }
 blockquote { border-top: 1px solid rgba(244,239,230,.25); padding-top: 2rem; }
 blockquote p { font-family: var(--serif); font-style: italic; font-size: clamp(1.35rem, 2vw, 1.65rem); line-height: 1.4; margin-bottom: 1.4rem; }
 cite { font-style: normal; font-size: .7rem; letter-spacing: .24em; text-transform: uppercase; opacity: .6; }
@@ -177,7 +177,8 @@ dd a { text-decoration: none; border-bottom: 1px solid var(--line); }
 .footer-bottom { display: flex; justify-content: space-between; align-items: center; gap: 1.5rem; flex-wrap: wrap; padding-top: 1.8rem; font-size: .76rem; opacity: .8; }
 .fico { display: inline-flex; align-items: center; gap: .7rem; text-decoration: none; letter-spacing: .14em; text-transform: uppercase; font-size: .68rem; opacity: .85; transition: opacity .3s; }
 .fico:hover { opacity: 1; }
-.fico img { height: 22px; width: auto; }
+.fico img { height: 32px; width: 32px; }
+.fico span { text-transform: none; font-style: italic; letter-spacing: .04em; font-size: .9rem; color: #8f8f8f; }
 
 /* reveal on scroll */
 .reveal { opacity: 0; transform: translateY(28px); transition: opacity 1s ease, transform 1s ease; }
